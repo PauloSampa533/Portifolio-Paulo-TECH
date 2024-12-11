@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Portfólio Moderno</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    <style>
+        .hero {
+            background: url('https://via.placeholder.com/1920x1080') no-repeat center center/cover;
+            color: white;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+        }
+
+        .hero h1 {
+            font-size: 4rem;
+        }
+
+        .card:hover {
+            transform: scale(1.05);
+            transition: all 0.3s ease;
+        }
+
+        footer {
+            background: #222;
+            color: #aaa;
+        }
+
+        footer a {
+            color: #fff;
+            text-decoration: none;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">Meu Portfólio</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#sobre">Sobre Mim</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#habilidades">Habilidades</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#projetos">Projetos</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#servicos">Serviços</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contato">Contato</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container text-center">
+            <h1>Bem-vindo ao Meu Portfólio</h1>
+            <p class="lead">Desenvolvedor Full Stack | Criador de Soluções Digitais</p>
+            <a href="#projetos" class="btn btn-primary btn-lg mt-3">Veja Meus Projetos</a>
+        </div>
+    </section>
+
+    <!-- Sobre Mim -->
+    <section id="sobre" class="py-5">
+        <div class="container text-center">
+            <h2>Sobre Mim</h2>
+            <p class="lead mt-3">Olá! Sou um desenvolvedor apaixonado por criar soluções inovadoras que impactam
+                positivamente as pessoas.</p>
+            <div class="row mt-4">
+                <div class="col-md-6">
+                    <img src="https://via.placeholder.com/400x400" alt="Foto" class="rounded-circle img-fluid">
+                </div>
+                <div class="col-md-6">
+                    <p>Com experiência em diversas tecnologias modernas, trabalho para entregar projetos de alta
+                        qualidade. Sou especialista em desenvolvimento Full Stack e tenho um olhar atento para o design
+                        e a usabilidade.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Habilidades -->
+    <section id="habilidades" class="py-5 bg-light">
+        <div class="container">
+            <h2 class="text-center">Habilidades</h2>
+            <div class="row mt-4">
+                <div class="col-md-3 text-center">
+                    <i class="fab fa-html5 fa-3x text-danger"></i>
+                    <h5 class="mt-2">HTML5</h5>
+                </div>
+                <div class="col-md-3 text-center">
+                    <i class="fab fa-css3-alt fa-3x text-primary"></i>
+                    <h5 class="mt-2">CSS3</h5>
+                </div>
+                <div class="col-md-3 text-center">
+                    <i class="fab fa-js fa-3x text-warning"></i>
+                    <h5 class="mt-2">JavaScript</h5>
+                </div>
+                <div class="col-md-3 text-center">
+                    <i class="fab fa-node-js fa-3x text-success"></i>
+                    <h5 class="mt-2">Node.js</h5>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projetos -->
+    <section id="projetos" class="py-5">
+        <div class="container">
+            <h2 class="text-center">Projetos</h2>
+            <div class="row mt-4">
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="https://via.placeholder.com/300x200" class="card-img-top" alt="Projeto 1">
+                        <div class="card-body">
+                            <h5 class="card-title">E-Commerce</h5>
+                            <p class="card-text">Loja virtual completa com backend escalável.</p>
+                            <a href="#" class="btn btn-primary">Ver Mais</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="https://via.placeholder.com/300x200" class="card-img-top" alt="Projeto 2">
+                        <div class="card-body">
+                            <h5 class="card-title">Sistema de Gerenciamento</h5>
+                            <p class="card-text">Painel administrativo para controle de dados empresariais.</p>
+                            <a href="#" class="btn btn-primary">Ver Mais</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="https://via.placeholder.com/300x200" class="card-img-top" alt="Projeto 3">
+                        <div class="card-body">
+                            <h5 class="card-title">Landing Page</h5>
+                            <p class="card-text">Página otimizada para conversões com design moderno.</p>
+                            <a href="#" class="btn btn-primary">Ver Mais</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Serviços -->
+    <section id="servicos" class="py-5 bg-light">
+        <div class="container text-center">
+            <h2>Serviços</h2>
+            <p class="lead">Ofereço uma gama de serviços para atender suas necessidades digitais.</p>
+            <div class="row mt-4">
+                <div class="col-md-4">
+                    <i class="fas fa-code fa-3x"></i>
+                    <h5 class="mt-2">Desenvolvimento Web</h5>
+                    <p>Criação de sites modernos e responsivos.</p>
+                </div>
+                <div class="col-md-4">
+                    <i class="fas fa-server fa-3x"></i>
+                    <h5 class="mt-2">Backend</h5>
+                    <p>APIs robustas e escaláveis para seus projetos.</p>
+                </div>
+                <div class="col-md-4">
+                    <i class="fas fa-paint-brush fa-3x"></i>
+                    <h5 class="mt-2">UI/UX Design</h5>
+                    <p>Designs atraentes e intuitivos para seus usuários.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contato -->
+    <section id="contato" class="py-5">
+        <div class="container">
+            <h2 class="text-center">Contato</h2>
+            <form class="mt-4">
+                <div class="mb-3">
+                    <label for="nome" class="form-label">Nome</label>
+                    <input type="text" class="form-control" id="nome" placeholder="Seu nome">
+                </div>
+                <div class="mb-3">
+                    <label for="email" class="form-label">E-mail</label>
+                    <input type="email" class="form-control" id="email" placeholder="Seu e-mail">
+                </div>
+                <div class="mb-3">
+                    <label for="mensagem" class="form-label">Mensagem</label>
+                    <textarea class="form-control" id="mensagem" rows="4" placeholder="Sua mensagem"></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Enviar</button>
+            </form>
+        </div>
+    </section>
+
+    <!--fototer-->
+    <footer class="py-4">
+        <div class="container text-center">
+            <p>&copy; 2024 Meu Portifólio. Todos os direitos reservados.</p>
+            <p>
+                <a href="#">LinkedIn</a>
+                <a href="#">GitHub</a>
+                <a href="#">Twitter</a>
+            </p>
+
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
